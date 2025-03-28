@@ -4,6 +4,7 @@ const port =3000;
 const userRoutes = require('./routes/user');
 const postRoutes = require('./routes/comment');
 const commentRoutes = require('./routes/post');
+
 app.use('/user', userRoutes);
 app.use('/post', postRoutes);
 app.use('/user', commentRoutes);
